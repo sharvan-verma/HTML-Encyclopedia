@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Encyclopedia</title>
+</head>
+<body>
+    <!--Heading Content -->
+    <h1>The HTML Encyclopedia</h1>
+    <h2>Explore the World of HTML</h2>
+    
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#Basic Tags">Basic Tags</a></li>
+            <li><a href="#Text Formatting">Text Formatting</a></li>
+            <li><a href="#Forms">Forms</a></li>
+            <li><a href="#Semantic Tags">Semantic Tags</a></li>
+            <li><a href="#Tables">Tables</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Basic Tag Content -->
+    <section id="Basic Tags">
+        <h2>Basic Tags</h2>
+        <table border="1px">
+            <tr>
+                <th>Tag</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td><code>&lt;html&gt;</code></td>
+                <td>Root element of the page.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;head&gt;</code></td>
+                <td>Contains meta-information about the document.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;body&gt;</code></td>
+                <td>Contains the visible content of the document.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;div&gt;</code></td>
+                <td>Generic container for grouping and styling blocks of content.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;span&gt;</code></td>
+                <td>Inline container for grouping and styling inline elements.</td>
+            </tr>
+        </table>
+    </section>
+
+<section id="Text Formatting">
+    <h2>Text formatting</h2>
+    <p>This is <b>bold</b></p>
+    <p>This is <i>italic</i></p>
+    <p>This is <u>Underlined</u></p>
+    <p><em>This is emphasized text.</em></p>
+    <p>This is a line break.<br></p>
+    <hr>
+    <p>This is a horizontal rule.</p>
+</section>
+
+<section id="Forms">
+    <h2>Forms</h2>
+    <form action="send.php" autocomplete="on">
+        <label for="UserName">Name:</label>
+        <input type="text" id="UserName" name="username" required><br>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="email" required><br><br>
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+</section>
+
+<section id="Multimedia">
+    <h2>Multimedia</h2>
+    <img src="1.webp" alt="html-image" width="300" height="200">
+    <audio controls>
+        <source src="1.mp3" type="audio/mp3" width="150" height="150"><br>
+    </audio>
+
+    <video controls height="250" width="250">
+        
+        <source src="1.mp4" type="video/mp4">
+    </video>
+</section>
+
+
+<section id="Semantic Tags">
+    <h2>Semantic Tags</h2>
+    <header>
+        <h1>Page Header</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#Basic Tags">Home</a></li>
+            <li><a href="#Semantic Tags">About</a></li>
+            <li><a href="#contact">Contact</a></li>  
+        </ul>
+    </nav>
+
+    <article>
+        <h3>sidebar</h3>
+        <p>This is the content of the article.</p>
+    </article>
+
+    <aside>
+        <h3>Sidebar</h3>
+        <p>THis is the sidebar content.</p>
+    </aside>
+
+    <section>
+        <h2>Section Title</h2>
+        <p>This is the content of the section.</p>
+    </section>
+
+
+    <main>
+        <h2>Main content</h2>
+        <p>This is the main content of the page.</p>
+        <p>Cybersecurity is the practice of protecting computer systems, devices, and data from Cyberattacks and other threats.
+            It's important for keeping people, organizations, and their information safe from unauthorize access, theft, and damage.
+            
+        </p>
+    </main>
+
+    <figure>
+        <img src="./1.webp" alt=" " height="200" width="350">
+        <figure>Caption of Html</figure>
+    </figure>
+</section>
+
+<section id="tables">
+    <h2></h2>
+</section>
+
+
+<section id="Tables">
+    <h2>Tables</h2>
+    <table border="2">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Cyber Security, Blue Teaming</td>
+            <td>Cyber Security, Red Teaming2</td>
+        </tr>
+        <tr>
+            <td>Cyber Security, Ethical Hacking</td>
+            <td>Cyber Security, Red Hat Hacking</td>
+        </tr>
+    </table>
+</section>
+
+
+
+
+
+<!--Footer section for Contact-->
+<footer id="contact">
+    <h2>Content</h2>
+    <p>Email: contact@example.com</p>
+    <address>
+        123 Main Street<br>
+        Anytown, Russia
+    </address>
+</footer>
+    
+</body>
+</html>
